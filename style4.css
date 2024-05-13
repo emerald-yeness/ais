@@ -1,0 +1,29 @@
+.wrapper-main {
+  background: linear-gradient(
+    45deg,
+    rgba(39, 0, 115, 1) 7%,
+    rgba(137, 3, 161, 1) 21%,
+    rgba(222, 40, 250, 1) 36%,
+    rgba(245, 81, 245, 1) 53%,
+    rgba(250, 62, 231, 1) 70%,
+    rgba(245, 44, 191, 1) 85%,
+    rgba(250, 10, 206, 1) 93%
+  );
+  background-blend-mode: normal;
+}
+
+table{
+	width: 100%;
+	padding: 10px;
+}
+
+th{
+	font-weight: bold;
+	border: 3px solid #FFFFFF;
+	text-align: center;
+}
+
+td{
+	border: 1px solid #FFFFFF;
+	text-align: right;
+}

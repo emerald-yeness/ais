@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style3.css">
+	<script src="https://kit.fontawesome.com/ede8586613.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+	<div class= "container">
+		<nav>
+			<img src="logo.png" class="logo" width="100" height="100">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#Vouchersystem">Voucher System</a></li>
+				<li><a href="#Financialstatement">Financial Statements</a></li>
+				<li><a href="#contact">Feedback</a></li>
+				<i class="fas fa-times" onclick="closemenu()"></i>
+			</ul>
+			<i class="fas fa-bars" onclick="openmenu()"></i>
+		</nav>
+		<div class="header-text">
+			<p> Accrued CPA </p>
+			<h1> Accounting Information System </h1>
+		</div>
+	</div>
+</div>
+<!-----------about------------>
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="homie.jpg">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p> I am a second-year Accountancy Student</p>
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('personal data')">Personal Data</p>
+					<p class="tab-links" onclick="opentab('about voucher system')">About Voucher System</p>
+				</div>
+				<div class="tab-contents active-tab" id="personal data">
+					<ul>
+						<li><span>FULL NAME:</span><br>SABUGA-A,PRINCESS HELENE KAYE</br></li>
+						<li><span>BIRTHDATE:</span><br>MAY 16,2004</li>
+						<li><span>BIRTHPLACE:</span><br>CAGAYAN DE ORO CITY</li>
+						<li><span>ADDRESS:</span><br>OLANO STREET, BRGY.5, BALINGASAG, MISAMIS ORIENTAL</li>
+						<li><span>MOBILE NO.:</span><br>09268240882</li>
+						<li><span>EDUCATIONAL ATTAINMENT</span><h4>PRIMARY:</h4><p>Balingasag Central School</p><p>A.Y.2010-2016</p><h4>SECONDARY</h4><p>St. Rita's College of Balingasag</p><p>A.Y.2016-2022</p><h4>TERTIARY</h4><p>Bukidnon State University</p><p>A.Y.2022-PRESENT</p></li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="about voucher system">
+					<ul>
+						<li><p> Major Output of the course Accounting Information  System</p><br></br><p>Submitted To: Lindy Joyce Sario-Morada,CPA </p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-----------vouchersystem------------------>
+<div id="Vouchersystem">
+	<div class="container">
+		<h1 class="sub-title">Financial Data</h1>
+		<div class="accounting-cycle">
+			<div>
+				<i class="fa-solid fa-handshake"></i>
+				<h2>Transaction</h2>
+				<p>Recorded Transactions for the Month of March to April 2024</p>
+				<a href="transactions.html">Proceed</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-book"></i>
+				<h2>General Journal</h2>
+				<p>Journalized Transactions for the Month of March to April 2024</p>
+				<a href="general.html">Proceed</a>
+			</div>
+			<div>
+				<i class="fa-regular fa-file-excel"></i>
+				<h2>Worksheet</h2>
+				<p>Organized Transactions for the Month of March to April 2024</p>
+				<a href="worksheet.html">Proceed</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-scale-balanced"></i>
+				<h2>Trial Balance</h2>
+				<p>Balancing the Records</p>
+				<a href="trialbalance.html">Proceed</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ------------financialstatements------------ -->
+<div id="Financialstatements">
+	<div class="container">
+		<h1 class="sub-title">Financial Report </h1>
+		<div class="financial-statements-list">
+			<div class="financial-statements">
+				<img src="bs.jpeg">
+				<div class="layer">
+					<h3>Statement of Financial Position</h3>
+					<p> Asset, Liabilities, and Equity </p>
+					<a href="bs.html"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #63E6BE;"></i></a>
+				</div>
+			</div>
+			<div class="financial-statements">
+				<img src="income.jpeg">
+				<div class="layer">
+					<h3>Statement of Financial Performance</h3>
+					<p> Income and Expense</p>
+					<a href="is.html"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #63E6BE;"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="RESUME.docx" download class="btn">Voucher Receipts</a>
+	</div>
+</div>
+<!- ----------contact----------- -->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Any complaints?<br>Contact Me</br></h1>
+				<p><i class="fas fa-paper-plane"></i>sabugaahelenekaye@gmail.com</p>
+				</p><i class="fas fa-phone-square-alt"></i>09268240882</p>
+				<div class="social icons">
+					<a href=""><i class="fa-brands fa-facebook"></i></a>
+					<a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+					<a href=""><i class="fa-solid fa-envelope"></i></a>
+					<a href=""><i class="fa-light fa-bag-shopping" style="color: #FFD43B;"></i></a>
+				</div>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="email" placeholder="Your Email" required>
+					<textarea name="Feedback" rows="10" placeholder="Your Feedback"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="copyright">
+		<p> Copyright Helene Kaye Made with <i class="fa-solid fa-heart"></i> Easy Tutorials </p>
+</div>
+
+<script>
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+	
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");	
+	}
+</script>
+
+<script>
+	var sidemenu = document.getElementById("sidemenu");
+	
+	function openmenu (){
+		sidemenu.style.right = "0";
+	}
+	
+	function closemenu (){
+		sidemenu.style.right = "-190px";
+	}
+	
+</script>
+
+<script>
+	function myFunction(){
+		document.documentElement.style.scrollBehavior = "smooth";
+	}
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx1Yz3JRLW6VwX4gbklapacgoXQtFSmbdjFuAKhQe3NqwXzdyM2KJH0pyclwanlAczd/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+		msg.innerHTML = "Message Sent Successfully"
+		setTimeout(function(){
+			msg.innerHTML = ""
+		},5000)
+		form.reset()
+	  })
+	  .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+</body>
+</html>
